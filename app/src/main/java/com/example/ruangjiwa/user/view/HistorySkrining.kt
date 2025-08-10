@@ -136,7 +136,6 @@ fun HistorySkrining() {
             .fillMaxSize()
             .background(color = backgroundColor)
     ) {
-        // Header
         Row(
             modifier = Modifier
                 .fillMaxWidth()

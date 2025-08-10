@@ -55,7 +55,7 @@ fun AppNavigation() {
         composable("admin_dashboard") {
             MainAdminScreen()
         }
-        composable("psikolog_dashboard") {
+        composable("psikolog") {
             MainPsikologScreen(mainNavController = navController)
         }
     }

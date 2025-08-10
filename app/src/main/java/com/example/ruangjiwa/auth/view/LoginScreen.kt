@@ -98,7 +98,7 @@ fun LoginScreen(
                             when (role) {
                                 "user" -> navController.navigate("home")
                                 "admin" -> navController.navigate("admin_dashboard")
-                                "psikolog" -> navController.navigate("psikolog_dashboard")
+                                "psikolog" -> navController.navigate("psikolog")
                                 else -> setError("Role tidak dikenali")
                             }
                         },
